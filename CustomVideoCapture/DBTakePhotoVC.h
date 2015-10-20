@@ -21,4 +21,5 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
 
 //
 @property (strong, nonatomic) UIView *focusCursorView; //聚焦光标
+
 @end

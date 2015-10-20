@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+
 @class DBTakeVideoVC;
+
 @interface DBPlayVideoVC : UIViewController
-@property(nonatomic,strong)NSURL   *fileURL;
-@property(nonatomic,strong)DBTakeVideoVC *delegate;
+
+@property(nonatomic, strong) NSURL *fileURL;
+@property(nonatomic, strong) DBTakeVideoVC *delegate;
+
 @end
